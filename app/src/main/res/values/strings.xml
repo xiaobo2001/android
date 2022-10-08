@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">音量调节</string>
+    <string name="app_start">启动悬浮窗</string>
+    <string name="app_stop">关闭悬浮窗</string>
+    <string name="hint">请输入音量大小</string>
+    <string name="SystemAudio">系统音量</string>
+    <string name="CallAudio">通话音量</string>
+    <string name="MusicAudio">多媒体音量</string>
+    <string name="appwidget_text">数据尚未初始化,当APP运行以后数据方可初始化</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">This is an app widget description</string>
+    <string name="SystemMaxAudio">系统最大音量:</string>
+    <string name="CallMaxAudio">通话最大音量:</string>
+    <string name="MusicMaxAudio">多媒体最大音量:</string>
+    <string name="update">检查更新</string>
+    <string name="about">关于</string>
+    <string name="systemKill">系统音量</string>
+    <string name="callKill">通话音量</string>
+    <string name="audioKill">多媒体音量</string>
+    <string name="appAlert">盗版APP,请支持正版,我们无法保证该APP目前是安全的,该APP将在3秒后自动退出，感谢你对该APP的支持,wx:liubo520lngw---xiaobo</string>
+</resources>

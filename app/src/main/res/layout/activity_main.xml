@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="UselessLeaf"
+        tools:layout_editor_absoluteX="-125dp"
+        tools:layout_editor_absoluteY="124dp">
+
+        <TextView
+            android:id="@+id/alertTitle"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/alertTitleMax"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center" />
+
+        <RadioGroup
+            android:id="@+id/RadioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+            <RadioButton
+                android:id="@+id/SystemAudio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/SystemAudio" />
+
+            <RadioButton
+                android:id="@+id/callAudio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/CallAudio" />
+
+            <RadioButton
+                android:id="@+id/musicAudio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/MusicAudio" />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/UerInput"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:hint="@string/hint"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:text="@string/SystemAudio" />
+
+        <SeekBar
+            android:id="@+id/SeekBarSystem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:thumb="@drawable/thumb32"
+            android:thumbOffset="0dip" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:text="@string/CallAudio" />
+
+        <SeekBar
+            android:id="@+id/SeekBarCall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:thumb="@drawable/thumb32"
+            android:thumbOffset="0dip" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:text="@string/MusicAudio" />
+
+        <SeekBar
+            android:id="@+id/SeekBarMusic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:thumb="@drawable/thumb32"
+            android:thumbOffset="0dip" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/systemKill"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="4dp"
+                android:text="@string/systemKill"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/callKill"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="4dp"
+                android:text="@string/callKill"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/audioKill"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="4dp"
+                android:text="@string/audioKill"
+                tools:ignore="ButtonStyle"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
